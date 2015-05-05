@@ -13,8 +13,156 @@
     margin-bottom: 0 !important;
 }
 .container-fluid{
+    position: relative;
     padding:0 !important;
+    margin: 0 auto;
 }
-.col-xs-4{
-    background: #FF7F00;    
+.conteudo{
+    margin-top:70px;
+    background: ýelllow;
 }
+
+.center{
+    margin: 0 auto;
+    /*width: 95%;*/
+}
+ 
+.col-sm-3{
+    /*position: relative;*/
+    background: #FF7F00;
+    width:24%;
+    height:300px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border:2px solid #FFB14A;
+    background-color:#FFF;
+    margin-left: 0.8%;
+    border:1px dashed #000;
+
+}
+.ativo-div{
+     border:1px solid #000 !important;
+}
+
+ 
+    .col-sm-3 .titulo
+    {
+        width: 70%;
+        height: 50px;
+        background: lightgray;
+        border-radius: 7PX;
+        text-align: center;
+        margin-top: -10px;
+        margin-left: 15%;
+        /*border:1px solid #000;*/
+        border:1px dashed #000;
+        padding-top: 10px;
+
+    }
+    /*
+    .col-sm-3 .titulo.brassagem{
+        background: darkgreen;
+    }
+    .col-sm-3 .fermentacao{
+        background: darkorange;
+    }
+    .col-sm-3 .titulo.maturacao{
+        background: brown;
+    }
+    .col-sm-3 .carbonatacao{
+        background: lightgreen;
+    }
+    */
+
+
+.circulo{
+        width: 60px;
+        background:lightgray;
+        -moz-border-radius: 50%; 
+        -webkit-border-radius: 50%; 
+        border-radius: 50%;
+        height:0;
+        padding-bottom: 15%;
+        position: relative;
+        margin: 0 auto;
+        margin-top: -70px;
+        border:1px dashed #000;    
+        text-align: center;
+    }
+
+/*concluido,feito,done -- alterar o nome da class, para deixar mais generica ainda*/
+.ativo{
+    background: lightgreen !important;    
+    border:1px solid #000 !important;
+}    
+
+    .circulo .numero{
+        vertical-align: center;
+        font-size: 3em;
+        /*padding-top: 50%;*/
+
+    }
+    /*.col-sm-3 .titulo*/
+  .producao{
+    /*background: red !important;*/
+    border:1px solid #000 !important;
+}
+.titulo.producao{
+    background: red !important;
+}
+.producao .numero{
+
+    color: #fff;
+}
+.circulo.producao{
+background: red;
+    
+}
+/*lista de ingredientes*/
+
+.ingredientes{
+
+      list-style: none;
+      /*background:purple;*/
+
+  }
+  .ingredientes li{
+
+     margin-bottom: 10px;
+     font-size: 1.5em;
+    color: lightgreen;
+    font-weight: bold;
+
+  }
+  .caracteristicas{
+    /*    background: yellow;*/
+    color:lightgreen;
+    text-align: center;    
+  }
+   
+    
+  
+  /*producao .caracteristicas{
+    color:red;
+  }*/
+  .caracteristicas p{
+    font-size: 4.1em ;
+  }
+   .caracteristicas p span{
+    font-size: 0.5em;
+
+   }
+ .caracteristicas span{
+    font-size: 1em ;
+  }
+
+  .producao .caracteristicas{
+color:red;
+ }
+  /*efeitos*/
+  .sombra_texto{
+    text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+
+  }
+
